@@ -1,6 +1,6 @@
 {
-  "name": "openshop-clothing",
   "homepage": "sagihill.github.io/openshop-clothing",
+  "name": "openshop-clothing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -42,5 +42,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
   }
 }
