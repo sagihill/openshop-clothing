@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import "./Directory.style.scss";
 import { selectDirectorySections } from "../../redux/directory/directory.selectors";
 import { createStructuredSelector } from "reselect";
