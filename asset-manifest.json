@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0f2831fa.chunk.css",
+    "main.js": "/static/js/main.caea16d5.chunk.js",
+    "main.js.map": "/static/js/main.caea16d5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6e193f0e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6e193f0e.js.map",
+    "static/js/2.5646a7d9.chunk.js": "/static/js/2.5646a7d9.chunk.js",
+    "static/js/2.5646a7d9.chunk.js.map": "/static/js/2.5646a7d9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.71c80e563258ac8fe8bd29f9b8edaeed.js": "/precache-manifest.71c80e563258ac8fe8bd29f9b8edaeed.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0f2831fa.chunk.css.map": "/static/css/main.0f2831fa.chunk.css.map",
+    "static/js/2.5646a7d9.chunk.js.LICENSE": "/static/js/2.5646a7d9.chunk.js.LICENSE",
+    "static/media/open-logo.20c2a381.svg": "/static/media/open-logo.20c2a381.svg",
+    "static/media/shopping-bag.cc38e474.svg": "/static/media/shopping-bag.cc38e474.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6e193f0e.js",
+    "static/js/2.5646a7d9.chunk.js",
+    "static/css/main.0f2831fa.chunk.css",
+    "static/js/main.caea16d5.chunk.js"
+  ]
+}
