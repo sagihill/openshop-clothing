@@ -4,7 +4,8 @@ import { Switch, Route, Redirect } from "react-router-dom";
 import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
-import HomePage from "./pages/HomePage/HomePage.component";
+
+import HomePage from "./pages/homepage/homepage.component";
 import ShopPage from "./pages/ShopPage/ShopPage.component";
 import CheckoutPage from './pages/CheckoutPage/CheckoutPage.component';
 import SignInAndSignUpPage from "./pages/SignInAndSignUpPage/SignInAndSignUpPage.component";
