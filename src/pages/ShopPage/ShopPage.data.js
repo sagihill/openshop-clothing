@@ -1,3 +1,5 @@
+//This is the shop database
+//In the future it will be stored on a different server
 export const collections = {
   hats: {
     id: 1,

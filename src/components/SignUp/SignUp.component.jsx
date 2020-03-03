@@ -16,6 +16,7 @@ class SignUp extends Component {
         this.state = initialState;
     }
 
+    //An event handler for submitting the SignUp form
     handleSubmit = async (event) => {
         event.preventDefault();
         const { displayName, email, password, confirmPassword } = this.state;

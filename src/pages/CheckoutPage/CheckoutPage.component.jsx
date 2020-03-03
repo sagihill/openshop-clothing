@@ -9,6 +9,7 @@ import {
 import ChekoutItem from "../../components/CheckoutItem/CheckoutItem.component";
 import StripeCheckoutButton from '../../components/StripeCheckoutButton/StripeCheckoutButton.component';
 
+//thr checkout page input is the cartItems and their total price
 const CheckoutPage = ({ cartItems, totalPrice }) => (
   <div className="checkout-page">
     <div className="checkout-header">

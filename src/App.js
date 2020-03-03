@@ -14,10 +14,13 @@ import Header from "./components/Header/Header.component";
 import { setCurrentUser } from './redux/user/user.actions';
 import { selectCurrentUser } from './redux/user/user.selectors';
 
+//The main app class
+//This class renders all diffrent pages and sub components
 class App extends Component {
 
   unsubscribeFromAuth = null;
 
+  //the mounting function searches for current user in the firebase utility
   componentDidMount() {
     const { setCurrentUser } = this.props;
     this.unsubscribeFromAuth = auth.onAuthStateChanged(async userAuth => {

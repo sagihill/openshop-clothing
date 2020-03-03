@@ -1,3 +1,6 @@
+//This is the root reducer
+//Combining all reducers into single component
+// persistence is also achieved using this root-reducer and persist package
 import { combineReducers } from 'redux';
 import { persistReducer } from 'redux-persist';
 import storage from 'redux-persist/lib/storage';
