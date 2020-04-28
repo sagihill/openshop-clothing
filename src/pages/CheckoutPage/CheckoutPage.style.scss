@@ -42,3 +42,45 @@
     }
   }
   
+  
+@media only screen and (max-width: 395px) and (orientation: portrait) {
+  .checkout-page {
+    width: 100%;
+    margin: 50px auto 0;
+  
+    .checkout-header {
+      width: 90%;
+      padding: 5px 0;
+  
+      .header-block {
+        font-size: 0.9rem;
+        width: 20%;
+        text-align: center;
+
+  
+        &:last-child {
+          width: 10%;
+        }
+      }
+    }
+  
+    .total {
+      margin-top: 10px;
+      margin-left: auto;
+      margin-right: 0.5rem;
+      font-size: 2rem;
+    }
+
+    button {
+      margin: auto;
+      margin-top: 20px;
+    }
+
+    .test-warning {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+  }
+}

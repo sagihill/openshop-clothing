@@ -4,3 +4,10 @@
     justify-content: space-between;
     margin: 30px auto;
 }
+
+@media only screen and (max-width: 395px) and (orientation: portrait) {
+    .sign-in-and-sign-up {
+        width: 80vw;
+        flex-direction: column;
+    }
+}

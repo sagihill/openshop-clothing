@@ -24,6 +24,7 @@ class SignIn extends Component {
             this.setState({initialState});
         } catch(error) {
             console.log('error sign in user', error.message);
+            alert(error.message);
         }
         this.setState(initialState);
     }

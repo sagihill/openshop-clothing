@@ -5,3 +5,8 @@
     padding: 20px 80px;
   }
   
+@media only screen and (max-width: 395px) and (orientation: portrait) {
+  .homepage {
+    padding: 0.5em 0;
+  }
+}

@@ -15,33 +15,44 @@
     cursor: pointer;
     display: flex;
     justify-content: center;
-  
     &:hover {
-      background-color: white;
-      color: black;
-      border: 1px solid black;
+        background-color: white;
+        color: black;
+        border: 1px solid black;
     }
-
     &.google-sign-in {
-      background-color: #4285f4;
-      color: white;
-
-      &:hover {
-        background-color: #357ae8;
-        border: none;
-      }
-    }
-
-    &.inverted {
-      background-color: white;
-      color: black;
-      border: 1px solid black;
-
-      &:hover {
-        background-color: black;
+        background-color: #4285f4;
         color: white;
-        border: none;
-      }
+        &:hover {
+            background-color: #357ae8;
+            border: none;
+        }
     }
-  }
-  
+    &.inverted {
+        background-color: white;
+        color: black;
+        border: 1px solid black;
+        &:hover {
+            background-color: black;
+            color: white;
+            border: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 395px) and (orientation: portrait) {
+    .custom-button {
+        min-width: 30%;
+        width: 46%;
+        height: 2.3rem;
+        font-size: 0.7rem;
+        padding: 0 10px 0 10px;
+        flex-direction: column;
+        align-items: center;
+
+        &.check-out-button {
+            width: 100%;
+            font-size: 1rem;
+        }
+    }
+}

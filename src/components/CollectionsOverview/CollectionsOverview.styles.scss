@@ -2,3 +2,10 @@
     display: flex;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 395px) and (orientation: portrait) {
+    .collections-overview {
+        display: flex;
+        flex-direction: column;
+    }
+  }

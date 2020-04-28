@@ -10,7 +10,7 @@ import {selectCartItemsCount} from '../../redux/cart/cart.selectors';
 const CartIcon = ({ toggleCartHidden, itemCount }) => (
     <div className='cart-icon' onClick={ toggleCartHidden }>
         <ShoppingIcon className='shopping-icon' />
-        <span className='item-count'>{itemCount}</span>
+        <span className={`${(itemCount>9 && itemCount<100)  ? 'item-count-large ' : ''}${itemCount>99  ? 'item-count-larger ' : ''}item-count` }>{itemCount}</span>
     </div>
 )
 

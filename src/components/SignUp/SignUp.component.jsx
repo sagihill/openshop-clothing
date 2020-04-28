@@ -31,6 +31,7 @@ class SignUp extends Component {
             this.setState({initialState});
         } catch (error) {
             console.log('error creating user', error.message);
+            alert(error.message);
         }
         
 

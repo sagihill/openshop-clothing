@@ -18,3 +18,11 @@
       }
     }
   }  
+
+  @media only screen and (max-width: 395px) and (orientation: portrait) {
+    .collection-page {
+      .items {
+        grid-template-columns: 1fr 1fr;
+      }
+    }  
+  }

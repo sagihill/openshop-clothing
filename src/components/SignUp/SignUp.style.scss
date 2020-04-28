@@ -2,9 +2,14 @@
     width: 380px;
     display: flex;
     flex-direction: column;
-
     .title {
         margin: 10px 0px;
     }
+}
 
+@media only screen and (max-width: 395px) and (orientation: portrait) {
+    .sign-up {
+        width: 100%;
+        margin-top: 1.4rem;
+    }
 }
